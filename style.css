@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+    
+    
+}
+
+
+.over{
+    margin: auto;
+    background-color: red;
+    opacity: 0.6;
+    display: none;
+    font-size: xx-large;
+    padding: 10px 50px;
+    color: white;
+    width: 80%;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.restart{
+        
+        padding: 10px 50px;
+        border: transparent;
+        border-radius: 3px;
+        background: #3065f8;
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        -webkit-box-shadow: 0px 0px 14px -3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 14px -3px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 14px -3px rgba(0, 0, 0, 0.75); 
+        display: none;
+    }
+    
+    
+
